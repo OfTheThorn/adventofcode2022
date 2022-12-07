@@ -1,10 +1,11 @@
+extern crate core;
+
 pub mod days;
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 fn main() {
-    let result = days::day6::day6(14);
-    dbg!(result);
+    days::day7::day7();
 }
 
 
