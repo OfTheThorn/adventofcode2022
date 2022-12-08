@@ -1,11 +1,9 @@
-extern crate core;
-
 pub mod days;
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 fn main() {
-    days::day8::day8();
+    days::day5::day5_part1();
 }
 
 
