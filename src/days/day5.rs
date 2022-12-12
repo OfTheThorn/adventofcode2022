@@ -1,5 +1,3 @@
-use std::ops::Add;
-
 pub fn day5_part1() {
     let input = include_str!("../../inputs/day5.txt");
     // Find crates

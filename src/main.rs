@@ -3,7 +3,7 @@ use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 fn main() {
-    days::day5::day5_part1();
+    days::day9::day9();
 }
 
 
